@@ -1,0 +1,112 @@
+
+
+.head-container
+{
+  display: flex;
+  background-color: #1F2937;
+    height: 300px;
+    flex-direction: column;
+  
+}
+.information 
+{
+  flex-direction: column;
+  display: flex;
+  background-color: white;
+  height: 300px;
+  padding: 4px;  
+  flex: 1;
+}
+.quotation
+{
+  flex-direction: column;
+  display: flex;
+  background-color: #e5e7eb;
+  height: 250px;
+  flex: 1;
+}
+.signup
+{
+  flex-direction: row;
+  display: flex;
+  height: 200px;
+  background-color: white;
+ 
+  flex: 1;
+}
+.footer
+{
+  flex-direction: column;
+  display: flex;
+background-color: #1F2937;
+height: 50px;
+
+flex: 1;
+}
+
+
+.random1
+{
+    flex-shrink: 1;
+  height: 55px;
+  padding-top:20px ;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer
+{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.quote
+{
+  color: #1F2937;
+  justify-content: space-around ;
+  align-items: center;
+  padding-top: 70px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+  font-weight: 300px;
+}
+.philosopher
+{
+  color: #1F2937;
+  justify-content: space-around;
+  text-align: right;
+  padding-right: 220px;
+}
+.register-up
+{
+  justify-content: space-around;
+  
+  color: white;
+  background-color: rgb(22, 138, 206);
+ 
+margin: auto;
+ width: 900px;
+ padding: 10px;
+ padding-left: 70px;
+}
+.information div
+{
+  justify-content: space-around;
+  flex-direction: column;
+}
+.random6,
+.random3,
+.random4,
+.random5
+
+{
+  border: 2px solid red;
+  flex-direction: row;
+}
+
+.random3
+{
+color: black;
+}
